@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>Taesha Portfolio Website</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+
+		<!--Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet"  href="style.css">
+
+
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="https://lh3.googleusercontent.com/ogw/ADGmqu8pgVh1K8GqIw29lQ4bn2yBd70-d7FT9Nuy8BcY=s32-c-mo" alt="T">
+			</div>
+			<button class="nav-toggle" aria-label="toogle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+					<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!--Introduction -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I am <strong>Taesha DuBoise</strong>
+			</h1> <!--"title--intro"modifying class-->
+			<p class="section__subtitle section__subtitle--intro">front-end dev</p>
+			<img src="img/taesha.JPG" alt="a picture of Taesha" class="intro__img">
+		</section>
+
+		<!--My services-->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">What I do</h2>
+			<div class="services">
+				<div class="service">
+					<h3>Developer</h3>
+					<p>As a developer I process information by categorizing, coding, calculating, and verifying data.  I do this by breaking down information into separate parts and identifying underlying principles affecting the software so that I can better serve the customer. Devloping lets me take the role of creating something new, and gives me the opportunity to create something better.</p>
+				</div><!--close service -->
+				<div class="service">
+					<h3>Problem Solver</h3>
+					<p>As a software engineer, problem-solving is paramount.  I problem solve by learning to split large complex goals into small, simpler ones.  Learning to think parallel, and learning to abstract is key.  I also try to consider re-using existing solutions because not everything has to be re-invented or created from scratch..</p>
+				</div><!--close service -->
+				<div class="service">
+					<h3>Communicator</h3>
+					<p>Effective communication skills are vital to the success of any project.  Good communication skills can improve teamwork and lead to better project collaboration. Communication comes in many forms but as a software engineer it comes into play when writting codes, and when when speaking to a client or coworker. .</p>
+				</div><!--close service -->
+			</div><!--close services -->
+			<a href="#work" class="btn">My Work</a>
+		</section>
+
+		<!--About Me-->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about"> Designer & developer based out of ATLANTA</p>
+
+			<div class="about-me__body">
+				<p>Hello, my name is Taesha and I'm currently a flight attendent with a passion for technology and data. Throughout my job history I have always found myself loving the technical aspect of things and always curious how things work and get to be the way they are. I am a very passionate self taught software developer who loves a challenge.</p>
+				<p>I am not a person that easily gives up and loves to step up to a challenge. I also enjoy learning new things and solving problems. Challenges arise every day and I just enjoy making life simplier, and easier for everyone. So if you have a challenge I am here to fix it not just make a temporary fix.</p>
+			</div>
+
+			<img src="img/taes.JPG" alt="image of Taesha leaning against a bus" class="about-me__img">
+		</section>
+
+		<!-- my Work-->
+		<section class="my-work" id="work">
+			<h2 class="section__title section__title--work">My Work</h2>
+			<p class="section__subtitle section__subtitle--work">A selection of my range of work. Click one!</p>
+
+			<div class="portfolio">
+				<!--portfolio item 01-->
+				<a href="portfolio-item.html" class="portfolio__item">
+					<img src="img/robot2.png" alt="Robot with javascript"  height="700" width="800">
+				</a>
+			</div>
+			<div class="portfolio">
+				<!--portfolio item 02-->
+				<a href="portfolio-item2.html" class="portfolio__item">
+					<img src="img/tic-tac.png" alt="tic-tac-toe"  height="500" width="800">
+				</a>
+			</div>
+			<div class="portfolio">
+				<!--portfolio item 04-->
+				<a href="portfolio-item4.html" class="portfolio__item">
+					<img src="img/lights2.png" alt="traffic light"  height="600" width="800">
+				</a>
+			</div>
+			<div class="portfolio">
+				<!--portfolio item 03-->
+				<a href="portfolio-item3.html" class="portfolio__item">
+					<img src="img/surveyForm2.png" alt="survey"  height="500" width="800">
+				</a>
+			</div>
+		</section>
+		<!--footer-->
+		<footer class="footer">
+			<!--replace with your email-->
+			<a href="mailto:taesha.duboise@gmail.com" class="footer__link">taesha.duboise@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://www.linkedin.com/in/taesha-duboise-58398613a/">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://github.com/taeshad">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+				<!--<li class="social-list__item">
+					<a class="social-list__link" href="https://dribbble.com/">
+						<i class="fab fa-dribbble"></i>
+					</a>
+				</li>-->
+				<!--<li class="social-list__item">
+					<a class="social-list__link" href="https://codepen.io/dashboard/">
+						<i class="fab fa-codepen"></i>
+					</a>
+				</li>-->
+			</ul>
+		</footer>
+
+		<script src="index.js"></script>
+
+
+	</body>
+</html>
